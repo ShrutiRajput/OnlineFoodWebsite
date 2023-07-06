@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+/* Navigation  */
+#navbar{
+    display: flex;
+    margin: 5px 7px;
+    padding: 5px 9px; 
+    align-items: center;
+    text-shadow: 1px 1px 2px black;
+}
+#navbar img{
+    height: 93px;
+    border-radius: 50%;
+    filter: opacity(0.8) drop-shadow(0 0 0 pink);
+}
+#navbar::before{
+    content: "";
+    background-color:black;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 116px;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+}
+#navbar ul{
+    display: flex;
+}
+.nav li{
+    list-style: none;
+}
+.nav li a{
+    font-size: 1.7rem;
+    display: block;
+    padding: 15px 25px;
+    margin: 1px 15px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+}
+.nav li a:hover{
+    background-color: #a7638763;
+}
+/* website intro */
+.home{
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+.home::before{
+    content: "";
+    background:url(img/bg.jpg) bottom  ;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 28.7rem;
+    top: 0;
+    left: 0;
+    opacity: 0.97;
+}
+.home h1{
+    margin: 23px 18px;
+    
+}
+.home div{
+    margin: 4px 196px;
+    padding: 18px 36px;
+    text-align: center;
+}
+.btn{
+    width: 8%;
+    font-size: 1.1rem;
+    height: 29px;
+    border-radius: 10px;
+    background-color:rgba(255, 255, 255, 0.416) ;
+}
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.849);
+    cursor: pointer;
+}
+
+/* our services and our client */
+.box img{
+    width: 90%;
+    padding: 7px 23px;
+}
+.box {
+    width: 30%;
+    box-shadow: 5px 5px 2px rgba(128, 128, 128, 0.822);
+    margin: 6px 15px;
+    padding: 9px 12px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: rgba(129, 125, 125, 0.296);
+}
+.servy2{
+    display: flex;
+       
+}
+/* utility classes */
+.h-primary{
+    font-size: 2.3rem;
+    text-align: center;
+    padding: 9px 2px;
+    margin: 10px 2px;
+}
+.h-secondary{
+
+    font-size: 1.9rem;
+    text-align: center;
+    padding: 9px 2px;
+    margin: 10px 2px;
+}
+
+/* our clients  */
+.services1{
+    position: relative;
+    height: 35rem;
+
+}
+
+.services1::before{
+    content: "";
+    background: url(img/ras.png) center;
+    position: absolute;
+    width: 100%;
+    height: 32.5rem;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+/* contact */
+#contact{
+    height: 42rem;;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* margin-top: 100px; */
+}
+.contact-box{
+    margin: 5px 29px;
+    padding: 26px 31px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 1.7rem;
+    text-shadow: 2px 2px 2px white;
+    background-color: rgba(255, 192, 203, 0.232);
+    box-shadow: 5px 5px 2px gray;
+}
+#contact::before{
+    content: "";
+    background: url(img/cont.jpg)  no-repeat center center/cover ;
+    position: absolute;
+    width: 100%;
+    height: 42.5rem;
+    z-index: -1;
+    opacity: 0.4;
+   
+}
+.contact-box input,
+.contact-box textarea{
+    width: 97%;
+    padding: 0.6rem;
+    font-size: 1rem;
+    border-radius: 9px;
+}
+.btn1{
+    width: 25.3%;
+    font-size: 1.1rem;
+    height: 29px;
+    padding: 3px 4px;
+    margin-top: 14px;
+    border-radius: 10px;
+    background-color:rgba(57, 57, 57, 0.708) ;
+    color: white;
+}
+.btn1:hover{
+    background-color: rgba(233, 116, 172, 0.741);
+    cursor: pointer;
+    color: black;
+}
+
+/* footer */
+footer{
+    background-color: rgba(0, 0, 0, 0.444);
+    text-align: center;
+}

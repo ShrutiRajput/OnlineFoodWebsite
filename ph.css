@@ -1,0 +1,14 @@
+
+/* #navbar{
+    /* flex-direction: column; */
+/* } */ */
+.home{
+    height: 25rem;
+    margin: 12px 0px;
+
+}
+.services{
+    height: 28rem;
+    /* flex-direction: column; */
+    margin: 10px 3px;
+}

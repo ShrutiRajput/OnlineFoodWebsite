@@ -1,0 +1,103 @@
+/* navbar */
+#navbar img {
+    height: 3.4rem;
+    border-radius: 50%;
+}
+
+#navbar {
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.nav li a {
+    margin: 7px 3px;
+    padding: 8px 4px;
+    font-size: 1.4rem;
+}
+
+/* website intro */
+.home {
+    height: 17rem;
+    margin: 25px 9px;
+    font-size: 1.2rem;
+
+}
+
+.home h1 {
+    margin: 5px 32px;
+}
+
+.home ::before {
+    height: 33.7rem;
+}
+
+.home div {
+    margin: 1px 9px;
+    padding: 0px 9px;
+}
+
+.btn {
+    width: fit-content;
+}
+
+/* our services */
+
+.services {
+    /* width: 39rem; */
+    height: fit-content;
+    margin: 10px 3px;
+}
+
+.servy2 {
+    margin: 34px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.h-secondary{
+    font-size: 1.5rem;
+}
+.box {
+    width: 25%;
+    
+    /* height: 23%; */
+
+}
+
+.box img {
+    width: 57%;
+    padding: 7px 23px;
+}
+/* our clients  */
+
+.services1 {
+    margin: 23px 0px;
+    /* height: fit-content; */
+    margin: 10px 3px;
+    
+
+}
+/* .services1::before{
+    height: 53rem;
+} */
+/* contact */
+#contact{
+height: 42rem;
+}
+#contact::before{
+    height: 42rem;
+}
+.contact-box{
+    width: 60%;
+    height: fit-content;
+}
+.contact-box input,
+.contact-box textarea{
+    
+    width: 93%;
+    padding: 0.6rem;
+    font-size: 0.9rem;
+    border-radius: 9px;
+
+}
